@@ -3,6 +3,25 @@
     padding: 0;
     box-sizing: border-box;   
 }
+
+.roboto-flex{
+        font-family: "Roboto Flex", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        font-variation-settings:
+    "slnt" 0,
+    "wdth" 100,
+    "GRAD" 0,
+    "XOPQ" 96,
+    "XTRA" 468,
+    "YOPQ" 79,
+    "YTAS" 750,
+    "YTDE" -203,
+    "YTFI" 738,
+    "YTLC" 514,
+    "YTUC" 712;
+}
+
 body{
     padding-top: 30px;
     background-image: url(https://img.freepik.com/foto-gratis/diseno-palomitas-maiz-objetos-cine_23-2147807379.jpg?w=740&t=st=1711934944~exp=1711935544~hmac=d1da212d5610c581e4931faad507ad8d6be4cfae83e3b519992805b71ceb0770);
@@ -20,10 +39,10 @@ body{
     align-items: center;
     flex-direction: column;
     width: 400px;
-    height: 520px;
+    height: 530px;
 }
 .contenedor .titulo {
-    margin: 0px 130px 40px 0px;
+    margin: 0px 210px 30px 0px;
     padding-left: 30px;
     color: whitesmoke;
 }
@@ -34,14 +53,21 @@ body{
     font-size: 0.9em;
     font-weight: 400;
     width: 300px;
-    margin-bottom: 5px;
-    border: solid whitesmoke;
+    margin-bottom: 8px;
+    border: 1px solid whitesmoke;
+    background-color: black;
+    outline: none;
 }
 
 .boton-registro{
-    cursor: pointer;  
+    cursor: pointer;
+    margin: 15px 0px 2px 110px;
 }
 
+.checkbox{
+    color: whitesmoke;
+    text-align: center;
+}
 .checkbox{
     color: whitesmoke;
     text-align: center;
